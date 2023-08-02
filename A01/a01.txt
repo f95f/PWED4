@@ -1,0 +1,58 @@
+
+ >>> Aula 01 <<<
+
+ > DDL, DML,
+ > Jquery, Bootstrap5, Ajax,
+ > Html, CSS
+
+ >  [link] w3schools.com
+	 - Ver. Jquery, AJAX, Bootstrap
+
+
+ > Para criar a estrutura inicial do projeto:
+
+ 	No eclipse:
+	- Selecionar Java EE 
+	- Selecionar Dynamic Web Project
+	- Selecionar servidor (tomcat 9)
+	- Indicar caminho do apache
+		-> Deve ser extraido e colado na raíz 
+		   do eclipse
+ 
+ > Copiar Todas as bibliotecas 
+	de [classesAndLibs] e colar 
+	dentro da pasta 
+	src/main/webapp/WEB-INF/lib 
+	(copiar do explorador e colar pela IDE)
+   
+
+ > Criar arquivos do tipo .jsp na pasta webapp.
+ > Selecionar jsp/html5
+ 
+ -Para executar, selecionar 
+	window > web browser > internal web browser -
+ > O conteúdo em html é escrito na páginas do tipo .jsp.
+
+ > O código em java é escrito no arquivo 
+   html/jsp com tags do tipo <% %>.
+
+ > Dentro das tags transparentes do jsp (<%),
+   out.print() imprime valores na página.
+ 	- Usar aspas duplas nos parâmetros.
+ >  	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
