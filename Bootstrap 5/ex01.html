@@ -13,10 +13,11 @@
         <h1 class = "display-1"> Aula 01 </h1>
         <p>Anotações.</p>
     </div>
+
     <div class="container mt-5 text-muted">
 
         <div class="row my-5">
-            <div class="col-sm-4 p-5 border">
+            <div class="col-sm-4 p-5 border shadow">
 
                 <h3 class = "display-6 mb-4">Configurar Projeto no eclipse</h3>
                 <ol>
@@ -39,7 +40,7 @@
                 </ol>
             
             </div>
-            <div class="col-sm-4 p-5 border">
+            <div class="col-sm-4 p-5 border shadow">
 
                 <h3 class = "display-6 mb-4">Executar projeto</h3>
                 <p>O código em java é escrito dentro do html por meio de <em>tags transparentes</em>: <code><% %></code>. Essas tags não são renderizadas no navegador.</p>
@@ -47,11 +48,120 @@
             </div>
         </div>
 
-        <div class="alert alert-warning alert-dismissible fade show">
-            <button class = "btn-close" data-bs-dismiss="alert"></button>
-            <strong>Notificação:</strong> teste Lorem ipsum, doladsfsad.
-        </div>
     </div>
 
+    <div class="container-fluid p-5 bg-warning text-white text-center">
+        <h1 class = "display-1"> Bootstrap</h1>
+        <p>Componentes úteis.</p>
+    </div>
+
+    <div class="container mt-5 text-muted">
+        <div class="row">
+            <h2 class="display-6 my-5">Componente de notificação</h2>
+
+            <div class=" shadow alert alert-warning alert-dismissible fade show">
+                <button class = "btn-close" data-bs-dismiss="alert"></button>
+                <strong>Notificação:</strong> teste Lorem ipsum, doladsfsad.
+            </div>
+            <hr class = "my-4">
+        </div>
+
+        <div class="row">
+            <h2 class="display-6 my-5">Grupos de botões</h2>
+            
+            <div class="col">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-warning text-white">aaa</button>
+                    <button type="button" class="btn btn-warning text-white">bbb</button>
+                    <button type="button" class="btn btn-warning text-white">ccc</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-warning text-white">aaa</button>
+                    <button type="button" class="btn btn-warning text-white">bbb</button>
+                    <button type="button" class="btn btn-warning text-white">ccc</button>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning text-white">aaa</button>
+                    <button type="button" class="btn btn-warning text-white">bbb</button>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-warning dropdown-toggle text-white" data-bs-toggle="dropdown">ccc</button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">AAA</a>
+                        <a class="dropdown-item" href="#">BBB</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <hr class = "my-4">
+        </div>
+
+        <div class="row">
+            <h2 class="display-6 my-5">Barra de Progresso</h2>
+
+            <div class="col">
+                <div class="progress">
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:70%">70%</div>
+                </div>
+            </div>
+            <hr class = "my-4">
+        </div>
+
+        <div class="row">
+            <h2 class="display-6 my-5">Animação de Carregamento</h2>
+            
+            <div class="col">
+                <button class="btn btn-warning text-white">
+                    <span class="spinner-border spinner-border-sm"></span>
+                    Carregando...
+                </button>
+            </div>
+
+            <div class="col">
+                <div class="spinner-grow text-warning"></div>
+            </div>
+
+            <div class="col">
+                <div class="spinner-border text-warning"></div>
+            </div>
+
+            <div class="col"><button class="btn btn-warning text-white" disabled>
+                <span class="spinner-grow spinner-grow-sm"></span>
+                    Carregando...
+                </button>
+            </div>
+            <hr class = "my-4">
+        </div>
+        
+        <div class="row">
+            <h2 class="display-6 my-5">Card</h2>
+
+            <div class="col">
+                <div class="card shadow" style="width:500px">
+                    <img class="card-img-top" src="https://www.w3schools.com/bootstrap5/img_avatar1.png" alt="Card image">
+                    <div class="card-img-overlay">
+                      <h4 class="card-title">John Doe</h4>
+                      <p class="card-text">Some example text.</p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow" style="width:400px">
+                    <img class="card-img-top" src="https://www.w3schools.com/bootstrap5/img_avatar1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <hr class = "my-4">
+        </div>
+    </div>
 </body>
 </html>
