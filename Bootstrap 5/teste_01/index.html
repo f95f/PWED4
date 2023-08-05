@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <title>♦ Teste ♦</title>
 </head>
@@ -16,9 +17,9 @@
                 lorem ipsum
             </h1>
         </div>
+
         <nav class = "navbar navbar-expand-sm bg-warning justify-content-center navbar-dark sticky-top">
-        <!-- 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus non quas eius dignissimos amet id commodi facilis odio eum dolor illum eveniet ipsa architecto, officia dolores ex aspernatur atque quisquam. -->
+
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="#" class="nav-link active">home</a>
@@ -45,9 +46,180 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus non quas eius 
             </ul>
 
         </nav>
+
+        <div id="slider-container" class="carousel slide" data-bs-slider = "carousel">
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target = "#slider-container" data-bs-slide-to = "0" class = "active"></button>
+                <button type="button" data-bs-target = "#slider-container" data-bs-slide-to = "1"></button>
+                <button type="button" data-bs-target = "#slider-container" data-bs-slide-to = "2"></button>
+                <button type="button" data-bs-target = "#slider-container" data-bs-slide-to = "3"></button>
+                <button type="button" data-bs-target = "#slider-container" data-bs-slide-to = "4"></button>
+                <button type="button" data-bs-target = "#slider-container" data-bs-slide-to = "5"></button>
+            </div>
+
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <div style="background: url(img/img4.jpg)" class= "slider-img carousel-img d-block w-100" alt="uma imagem"></div>
+                    <div class="container-mask">
+                        <div class="carousel-caption">
+                            <h3 class = "display-4">non quas eius</h3>
+                            <p class = "lead">dignissimos amet id commodi facilis odio eum dolor.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="carousel-item">
+                    <div style="background: url(img/img2.jpg)" class= "slider-img carousel-img d-block w-100" alt="uma imagem"></div>  
+                    <div class="container-mask">
+                        <div class="carousel-caption">
+                            <h3 class = "display-4">commodi facilis</h3>
+                            <p class = "lead">dolor illum eveniet ipsa architectolor.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="carousel-item">
+                    <div style="background: url(img/img3.jpg)" class= "slider-img carousel-img d-block w-100" alt="uma imagem"></div>  
+                    <div class="container-mask">
+                        <div class="carousel-caption">
+                            <h3 class = "display-4">non quas eius</h3>
+                            <p class = "lead">dignissimos amet id commodi facilis odio eum dolor.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="carousel-item">
+                    <div style="background: url(img/img1.jpg)" class= "slider-img carousel-img d-block w-100" alt="uma imagem"></div>   
+                    <div class="container-mask">
+                        <div class="carousel-caption">
+                            <h3 class = "display-4">commodi facilis</h3>
+                            <p class = "lead">dolor illum eveniet ipsa architectolor.</p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="carousel-item">
+                    <div style="background: url(img/img5.jpg)" class= "slider-img carousel-img d-block w-100" alt="uma imagem"></div>  
+                    <div class="container-mask">
+                        <div class="carousel-caption">
+                            <h3 class = "display-4">non quas eius</h3>
+                            <p class = "lead">dignissimos amet id commodi facilis odio eum dolor.</p>
+                        </div>
+                    </div>  
+                </div>
+
+            <div class="carousel-item">
+                <div style="background: url(img/img6.jpg)" class= "slider-img carousel-img d-block w-100" alt="uma imagem"></div>   
+                    <div class="container-mask">
+                        <div class="carousel-caption">
+                            <h3 class = "display-4">commodi facilis</h3>
+                            <p class = "lead">dolor illum eveniet ipsa architectolor.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>  
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider-container" data-bs-slide = "prev">
+                <span class="carousel-icon carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#slider-container" data-bs-slide = "next">
+                <span class="carousel-icon carousel-control-next-icon"></span>
+            </button>
+         
+        </div>
+
     </header>
+
     <main>
-        <div style="background-color: red; width: 20px; height: 2000px;"></div>
+        <!-- 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus non quas eius dignissimos amet id commodi facilis odio eum dolor illum eveniet ipsa architecto, officia dolores ex aspernatur atque quisquam. -->
+        <div class="container-fluid p-5 bg-warning text-white text-center shadow">
+            <h2 class = "display-2">lpsa architecto</h2>
+            <p>officia dolores ex aspernatur atque quisquam.</p>
+        </div>
+
+        <div class="container p-5">
+
+            <div class="row">
+
+                <div class="col-md-4 p-5 border shadow text-muted">
+                    <h3 class = "display-6">Aque quisquam</h3>
+                    <p class = "py-4">Possimus non quas eius dignissimos amet id commodi facilis odio eum dolor illum eveniet ipsa architecto, officia dolores ex aspernatur atque quisquam.</p> 
+                    <button type="button" class="btn btn-warning rounded-pill text-white px-4">Commodi!</button>
+                </div>
+
+                <div class="col-md-4 p-5 border text-muted">
+                    <h3 class = "display-6">Accusamus impedit!</h3>
+                    <ol class = "py-4">
+                        <li>Lorem ipsum</li>
+                        <li>amet consectetur</li>
+                        <li>dolor sit</li>
+                        <li>Aut natus vero</li>
+                    </ol>
+                    <p>Vero vel at dolorem amet atque repellendus porro!</p> 
+                </div>
+                <div class="col-md-4 p-5 border text-muted shadow">
+                    <h3 class = "display-6">Dignissimos <span class = "badge bg-warning">amet</span></h3>
+                    <p class = "py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aut natus vero vel at dolorem amet atque repellendus. Cumque saepe architecto iusto qui accusamus impedit, natus animi consequuntur in reprehenderit porro!</p> 
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 p-5 border text-muted">
+                    <h3 class = "display-6">Quisquam Ampedit?</h3>
+                    <div class="btn-group btn-group-lg mx-auto my-4">
+                        <button type="button" class="btn btn-warning text-white">dolorem</button>
+                        <button type="button" class="btn btn-warning text-white">beatae</button>
+                        <button type="button" class="btn btn-warning text-white">aliquid</button>
+                    </div>
+                    <p>Accusamus quos unde fugit. <br>Ducimus nihil quos illum odio similique dicta harum culpa aspernatur!</p>
+                </div>
+                <div id = "custom-grid-item" class="col-md-4 border text-black-50 shadow text-center p-5">                
+                </div>
+                <div class="col-md-4 p-5 border text-muted">
+                    <h3 class = "display-6">Lorem ipsum</h3>
+                    <p class = "py-4">
+                        Lorem dolor sit amet consectetur adipisicing elit. Ducimus nculpa aspernatur dolorem voluptates Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratiores Nostrum, nesciunt. Quo temporibus dolorem eum nostrum aliquam necessitatibus cumque beatae aliquid.
+                    </p>   
+                    <blockquote class = "blockquote-footer">Natus animi consequuntur.</blockquote> 
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 p-5 border text-muted shadow">
+                    <h3 class = "display-6">Dignissimos <span class = "badge bg-warning">amet</span></h3>
+                    <p class = "py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aut natus vero vel at dolorem amet atque repellendus. Cumque saepe architecto iusto qui accusamus impedit, natus animi consequuntur in reprehenderit porro!</p> 
+                </div>
+
+                <div class="col-md-4 p-5 border text-muted">
+                    <h3 class = "display-6">Accusamus impedit!</h3>
+                    <ol class = "py-4">
+                        <li>Lorem ipsum</li>
+                        <li>amet consectetur</li>
+                        <li>dolor sit</li>
+                        <li>Aut natus vero</li>
+                    </ol>
+                    <p>Vero vel at dolorem amet atque repellendus porro!</p> 
+                </div>
+
+                <div class="col-md-4 p-5 border shadow text-muted">
+                    <h3 class = "display-6">Aque quisquam</h3>
+                    <p class = "py-4">Possimus non quas eius dignissimos amet id commodi facilis odio eum dolor illum eveniet ipsa architecto, officia dolores ex aspernatur atque quisquam.</p> 
+                    <button type="button" class="btn btn-warning rounded-pill text-white px-4">Commodi!</button>
+                </div>
+                
+            </div>
+
+        </div>
+
     </main>
 </body>
 </html>
