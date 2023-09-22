@@ -1,0 +1,33 @@
+ >>> aula 03 <<< 
+
+
+ > Jsp compila um arquivo completo antes 
+	da execução. 
+ 	- Evitar misturar java com html
+
+ > [comando] ctrl + alt + t >
+     
+    - Abre o terminal na pasta raíz do usuário
+    - no terminal: sudo adduser [username]
+    - no terminal: 
+	sudo addgroup [username] [group] (root etc.)
+    - terminal: sudo gedit /etc/sudoers >
+	- No arquivo que abrir:
+		Em #user privilege specs.,
+		colocar nome do usuário e 
+		[ ALL=(ALL:ALL) ALL ] na frente.
+    
+    - no terminal: sudo chmod -R 777 [local](/home/)
+	- para acessar a pasta a home de todos os usuários,
+ 	ir em outros locaiis  > computador > home. 
+	Executar o comando acima nesta pasta.
+	- Remove critérios de acesso para todas as pastas 
+	em det. diretório.
+ >  Servlets ficam na pasta main > java
+
+
+
+
+
+
+

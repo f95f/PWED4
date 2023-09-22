@@ -1,0 +1,71 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<div class = "container-fluid bg-warning py-2 text-center text-muted shadow">
+		
+		<h1>a</h1>
+		<p>a</p>
+		
+	
+	
+	</div>
+	<div class = "container">
+	
+	<form id="frmEndereco">
+	
+      "cep": <input class = "form-control" type = "text" name = "txtCep" id = "txtCep"> <br>
+      "logradouro":  <input  class = "form-control" type = "text" name = "txtLogradouro" id = "txtLogradouro"> <br>
+      "complemento": <input  class = "form-control" type = "text" name = "txtComplemento" id = "txtComplemento"> <br>
+      "bairro": <input  class = "form-control" type = "text" name = "txtBairro" id = "txtBairro"> <br>,
+      "localidade": <input  class = "form-control" type = "text" name = "txtCidade" id = "txtCidade"> <br>,
+      "uf": <input  class = "form-control" type = "text" name = "txtUf" id = "txtUf"> <br>,
+      "ibge": "3550308",
+      "gia": "1004",
+      "ddd": "11",
+      "siafi": "7107"
+    }
+       
+		
+	</form>
+	
+	</div>	
+
+
+	<script src="js/jquery.min.js"></script>
+	<script type = "text/javascript">
+
+		
+		$(document).ready(function(){
+			
+			//alert('a');
+			
+		});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</script>
+
+</body>
+</html>

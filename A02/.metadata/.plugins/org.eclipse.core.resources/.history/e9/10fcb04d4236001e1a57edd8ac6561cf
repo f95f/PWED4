@@ -1,0 +1,79 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<div class = "container-fluid bg-warning py-2 text-center text-muted shadow">
+		
+		<h1>a</h1>
+		<p>a</p>
+		
+	
+	
+	</div>
+	<div class = "container w-75">
+	
+		<form id="frmEndereco">
+		
+			<div class = "my-3">
+		      <label for = "txtCep" class = "form-label"> Cep </label> 
+		      <input class = "form-control" type = "text" name = "txtCep" id = "txtCep"> <br>
+			</div>
+			
+			<div class = "my-3">
+		      <label for = "txtLogradouro" class = "form-label"> Logradouro </label> 
+		      <input class = "form-control" type = "text" name = "txtLogradouro" id = "txtLogradouro"> <br>
+			</div>
+	      
+	      	<div class = "my-3">
+		      <label for = "txtLogradouro" class = "form-label"> Logradouro </label> 
+		      <input  class = "form-control" type = "text" name = "txtComplemento" id = "txtComplemento"> <br>
+			</div>
+			
+	      
+	      "bairro": <input  class = "form-control" type = "text" name = "txtBairro" id = "txtBairro"> <br>,
+	      "localidade": <input  class = "form-control" type = "text" name = "txtCidade" id = "txtCidade"> <br>,
+	      "uf": <input  class = "form-control" type = "text" name = "txtUf" id = "txtUf"> <br>,
+	
+			
+		</form>
+		
+	</div>	
+
+
+	<script src="js/jquery.min.js"></script>
+	<script type = "text/javascript">
+
+		
+		$(document).ready(function(){
+			
+			//alert('a');
+			
+		});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</script>
+
+</body>
+</html>

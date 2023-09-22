@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/home/aluno/Área de Trabalho/A02/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1032376714.index
+/aula02/src/main/java

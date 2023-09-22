@@ -1,0 +1,15 @@
+ >>> Aula 02 <<< 
+
+ > [link] viacep.com.br
+    - obter informações em json a partir de cep (api)
+    - [ex] https://viacep.com.br/ws/01001000/json/
+
+ > [com] wget [url] > No terminal do linux, faz 
+	download dos recursos especificados na url.
+
+ > Projeto
+	- Usar: java, jsp, jquery, bootstrap, ajax
+	- Final do semestrer
+	-  
+
+ 
